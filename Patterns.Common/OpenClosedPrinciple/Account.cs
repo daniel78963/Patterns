@@ -1,18 +1,14 @@
 ﻿
 namespace Patterns.Common.OpenClosedPrinciple
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
-
     public class Account
     {
         public decimal Interest { get; set; }
         public decimal Balance { get; set; }
+
         // members and function declaration
         public decimal CalcInterest(string accType)
-        {
-
+        { 
             if (accType == "Regular") // savings
             {
                 Interest = (Balance * 4) / 100;

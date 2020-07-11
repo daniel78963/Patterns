@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Patterns.Common.DependencyInversionPrinciple
+﻿namespace Patterns.Common.DependencyInversionPrinciple
 {
     public interface IAutomobile
     {

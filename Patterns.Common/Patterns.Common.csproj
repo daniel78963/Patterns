@@ -4,8 +4,4 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="1_CreationalDesignPatterns\1_1_FactoryMethod\" />
-  </ItemGroup>
-
 </Project>

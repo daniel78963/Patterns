@@ -4,7 +4,7 @@ namespace Patterns.Console
     using Patterns.Common._1_CreationalDesignPatterns._4_1_Prototype._1;
     using System;
 
-    class Program
+    class ProgramPrototype
     {
         static void Main(string[] args)
         {
@@ -20,7 +20,7 @@ namespace Patterns.Console
             Person p3 = p1.DeepCopy();
 
             // Display values of p1, p2 and p3.
-            Console.WriteLine("Original values of p1, p2, p3:");
+            Console.WriteLine("ConsolePrototype Original values of p1, p2, p3:");
             Console.WriteLine("   p1 instance values: ");
             DisplayValues(p1);
             Console.WriteLine("   p2 instance values:");

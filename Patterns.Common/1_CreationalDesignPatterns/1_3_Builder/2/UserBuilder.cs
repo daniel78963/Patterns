@@ -6,5 +6,11 @@
         private string username;
         private long age;
         private string city;
+
+        public UserBuilder Name(string name)
+        {
+            this.name = name;
+            return this;
+        }
     }
 }
